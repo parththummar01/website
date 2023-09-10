@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+    <style>
+         body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: url(lgbg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+        
+        }
+        *{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .center-container{
+            margin-top:80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            margin-left: 700px;
+            
+
+        }
+        form{
+            width: 550px;
+            height: 600px;
+            padding: 20px;
+            /* border: 2px solid #000; */
+            border-radius: 10px;background-color: white;
+            backdrop-filter: blur(10px);
+        }
+
+        button{
+            background-color: rgb(54, 175, 255);
+            color: black;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        #lg{
+            color: rgb(54, 175, 255);
+            -webkit-text-stroke-color: #000;
+            -webkit-text-stroke-width: 0.2px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            padding: 15px;
+        }
+        .bottom-border{
+        border: none;
+        border-bottom: 2px solid #000;
+        outline: none;
+        background-color: transparent;
+        width: 290px;
+      }
+    </style>
+</head>
+<body>
+    <div class="center-container">
+    
+        <form>
+            <h2><center><b id="lg">Login</b></center> </h2><br><br><br>
+           <center> <lable>Username</lable><br><br>
+            <input type="text" id="username" class="bottom-border" name="username" placeholder="Enter username" width="100px"><br><br><br><br>
+            <lable>Password</lable><br><br>
+            <input type="password" id="password" class="bottom-border" name="password" placeholder="ENTER PASSWORD"><br><br>
+            <p>forgot password</p><br><br>
+            <button class="large-button" formaction="index.html">Login</button></center>
+        </form>
+        </div>
+</body>
+</html>
